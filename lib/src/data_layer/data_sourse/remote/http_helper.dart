@@ -27,6 +27,7 @@ class HttpHelper {
           RegisterModel.fromJson(jsonDecode(response.body));
       return registerModel;
     } else {
+      print('sks');
       throw ServerExceptions();
     }
   }

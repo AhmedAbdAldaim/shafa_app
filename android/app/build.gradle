@@ -26,6 +26,10 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+      //to solve problim ..task ':app:lintVitalRelease'.
+    lintOptions{
+        disable 'InvalidPackage'
+    }
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 

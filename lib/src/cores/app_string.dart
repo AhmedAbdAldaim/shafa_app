@@ -1,8 +1,8 @@
 import 'package:medical_app/src/cores/errors/failure.dart';
 
 class AppString {
-  //dataSourse
-  static const String baseUel = "http://192.168.43.176:8000/api/v1/";
+  //dataSourse "http://192.168.119.50:8000/api/v1/";
+  static const String baseUel = "http://192.168.133.50:8000/api/v1/";
   static const String register = "register";
   static const String login = "login";
   static const String medicine = "medicine";
